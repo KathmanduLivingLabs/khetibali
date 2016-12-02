@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+Khetibali
+</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="bajrabarahi/js/jquery-2.1.1.min.js"></script>
+        <script src="bajrabarahi/js/d3.min.js"></script>
+        <script src="bajrabarahi/js/d3pie.min.js"></script>
+		<script src="js/mainpagenav.js"></script>
+		<script src="js/bajrapiechart.js"></script>
+		<script src="js/parallax.js"></script>
+		<script src="bajrabarahi/js/jquery.fullPage.js"></script>
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/profile.css">
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+				<style>
+		#mana-map{
+display: block;
+}
+#mana-map:active{
+display: block;
+}
+#mana-profile{
+display: block;
+}
+</style>
+
+</head>
+<body>
+ <div class="pure-g">
+ <div class="pure-u-1-5">
+ <div class="khetibalilogo"></div>
+ <ul class="navigation">
+    <li class="nav-item" id="bajranav-item"><a href="bajra.html">Bajrabarahi VDC</a>
+	<ul>
+	<li class="subnav-item" id="bajra-map"><a href="bajra.html">Map </a></li>
+	<li class="subnav-item" id="bajra-profile"><a href="bajraprofile.html">Profile</a></li>
+	</ul>
+	</li>
+    <li class="nav-item" id="padamnav-item"><a href="padam.html">Padampur VDC</a>
+	<ul>
+	<li class="subnav-item" id="padam-map"><a href="padam.html">Map </a></li>
+	<li class="subnav-item" id="padam-profile"><a href="padamprofile.html">Profile</a></li>
+	</ul>
+	</li>
+    <li class="b-nav-item" id="mananav-item"><a href="mana.html">Manahari VDC</a>
+	<ul>
+	<li class="subnav-item" id="mana-map"><a href="mana.html"><i class="fa fa-chevron-circle-right"></i> Map </a></li>
+	<li class="a-subnav-item" id="mana-profile"><a href="manaprofile.html"><i class="fa fa-chevron-circle-right"></i> Profile</a></li>
+	</ul>
+	</li>
+    <li class="nav-item"><a href="mappingprocess.html">The Mapping Process</a></li>
+    <li class="nav-item"><a href="about.html">About Khetibali</a></li>
+</ul>
+
+				</div>
+								<div class="pure-u-4-5">
+			<div id="fullpage">	
+	<div class="section" id="mslide1">
+<div class='scroll-down'>
+	Scroll down
+	</div>
+	<a class="button" id="down" title="">
+	</a>
+
+		</div>
+		<div class="section" id="mslide2" >
+	</div>
+	<div class="section" id="mslide3" >
+</div>
+	<div class="section" id="mslide4" >
+	</div>
+    <div class="section">
+    <div class="contact" style="height:100%">
+        		 		<div class='scroll-up'>
+	Scroll up
+	</div>
+		<a class="button" id="up" title=""></a>
+        <div class="osm_location" style=" width: 40%; height: 40%">
+           <img src="css/images/manahari_location.jpg"/>
+        </div>
+                <div class="contact_info">
+                    <div class="info">
+                        <div id="heading">For further information</div></br>
+                    <div id="heading_info">
+                    Contact: </br>
+                    Small farmer Cooperative, Manahari </br>
+                    9855071614
+                    </div>
+                    </div>
+        </div>
+    </div>
+                </div>
+	</div>
+</div>
+<script>
+/*if (window.addEventListener) window.addEventListener('DOMMouseScroll', wheel, false);
+window.onmousewheel = document.onmousewheel = wheel;
+
+var time = 150;
+var percentageToScroll = 1.0;
+var documentHeight = $('.slide').height();
+console.log(documentHeight);
+var scrollAmount = Math.floor(documentHeight * percentageToScroll);
+
+
+function wheel(event) {
+    if (event.wheelDelta) delta = event.wheelDelta / 120;
+    else if (event.detail) delta = -event.detail / 3;
+
+    handle();
+    if (event.preventDefault) event.preventDefault();
+    event.returnValue = false;
+}
+
+function handle() {
+
+    $('html, body').stop().animate({
+        scrollTop: $(window).scrollTop() - (scrollAmount * delta)
+    }, time);
+}
+
+
+$(document).keydown(function (e) {
+
+    switch (e.which) {
+        //up
+        case 38:
+            e.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: $(window).scrollTop() - scrollAmount
+            }, time);
+            break;
+
+            //down
+        case 40:
+            e.preventDefault();
+            $('html, body').stop().animate({
+                scrollTop: $(window).scrollTop() + scrollAmount
+            }, time);
+            break;
+    }
+});
+$('a#down').on('click',function(){
+
+console.log('aaaa');
+            $('html, body').stop().animate({
+                scrollTop: $(window).scrollTop() + scrollAmount
+            }, time);
+});
+$('a#up').on('click',function(){
+console.log('aaaa');
+            $('html, body').stop().animate({
+                scrollTop: $(window).scrollTop() - scrollAmount
+            }, time);
+});*/
+$(document).ready(function() {
+    $('#fullpage').fullpage();
+
+});
+
+</script>
+</body>
+</html>

@@ -1,0 +1,388 @@
+body{
+     font-family: "Lato", "Verdana", "sans-serif";
+    font-weight: 100;
+    font-size: 12pt;
+	height: 100%;
+}
+
+
+.klllogo {
+background-image: url('images/logo.png');
+background-color: #BBCDAF;
+background-repeat: no-repeat;
+  height: 70px;
+}
+
+div.pure-u-1-5 {
+position: fixed;
+}
+div.pure-u-4-5{
+float: left;
+left: 20%;
+position: absolute;
+}
+#nav{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+#navLine{
+    width: 50px;
+    height: 165px;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    margin-top: -82.5px;
+    z-index:1;
+    list-style: none;
+}
+#navLine li{
+    width: 15px;
+    height: 15px;
+    background-color: ghostwhite;
+    border: 5px solid ghostwhite;
+    margin: 12.5px;
+    cursor: pointer;
+    border-radius: 20px;
+    transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s;
+}
+#navLine li:hover, #navLine .current{
+    transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s;
+    background-color: transparent;
+}
+.section{
+    width:100%;
+   /* height:677px;*/
+    position: relative;
+}
+  #up{
+    display:block;
+    width:50px;
+    height:50px;
+    position:absolute;
+  top: 0.9em;
+  left: 94%;
+	z-index: 2;
+    margin-left: -25px;
+    background-color: transparent;
+    background-image:url(images/up.png);
+    background-repeat:no-repeat;
+    background-position: center center;
+    transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s; /* Safari */
+}
+#down{
+    display:block;
+    width:50px;
+    height:50px;
+    position:absolute;
+    bottom:0.7em;
+    left:90%;
+    margin-left: -25px;
+    background-color: transparent;
+    background-image:url(images/arrow.png);
+    background-repeat:no-repeat;
+    background-position: center center;
+    transition-duration: 0.7s;
+    -webkit-transition-duration: 0.7s; /* Safari */
+}
+.button:hover{
+     cursor:pointer;
+ 
+}
+.fp-tableCell {
+  padding: 9px;
+}
+	#bslide1{
+	background-image: url('images/Bajrabarahi/1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#bslide2{
+	background-image: url('images/Bajrabarahi/2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#bslide3{
+	background-image: url('images/Bajrabarahi/3.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ #bslide4{
+ background-image: url('images/Bajrabarahi/4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#bslide5{
+	background-image: url('images/Bajrabarahi/5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#bslide6{
+	background-image: url('images/Bajrabarahi/6.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ #bslide7{
+ background-image: url('images/Bajrabarahi/7.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#pslide1{
+	background-image: url('images/1stvisit.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#pslide2{
+	background-image: url('images/banana.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#pslide3{
+	background-image: url('images/cow.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ #pslide4{
+ background-image: url('images/eggs.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}	
+#pslide5{
+	background-image: url('images/mapping.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#pslide6{
+	background-image: url('images/padampur.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+	#mpslide1{
+	background-image: url('images/1stvisit.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#mpslide2{
+	background-image: url('images/mapping_process/2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#mpslide3{
+	background-image: url('images/presentation_mana.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ #mpslide4{
+ background-image: url('images/mapping_process/4.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+ #mpslide5{
+ background-image: url('images/mapping_process/5.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#mpslide6{
+	background-image: url('images/mapping_process/6.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#mpslide7{
+	background-image: url('images/mapping.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ #mpslide8{
+ background-image: url('images/mapping_process/8.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+ #mpslide9{
+ background-image: url('images/mapping_process/9.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+ #mpslide10{
+ background-image: url('images/mapping_process/10.JPG');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#mpslide11{
+	background-image: url('images/mapping_process/11.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#mpslide12{
+	background-image: url('images/training.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ #mpslide13{
+ background-image: url('images/review.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+
+	#mslide1{
+	background-image: url('images/manahari.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#mslide2{
+	background-image: url('images/girls.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#mslide3{
+	background-image: url('images/nama.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ #mslide4{
+ background-image: url('images/nirab.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+ #mslide5{
+ background-image: url('images/presentation_mana.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+#mslide6{
+	background-image: url('images/review.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#mslide7{
+	background-image: url('images/tractor.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ #mslide8{
+ background-image: url('images/training.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+	#aslide1{
+	background-image: url('images/rainbow.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+ #aslide2{
+ background-image: url('images/khet_about.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+ #aslide3{
+ background-image: url('images/factory.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+ #aslide4{
+ background-image: url('images/bari_1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+ #aslide5{
+ background-image: url('images/banana.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	}
+.h {
+  position: relative;
+  top: 48%;
+}
+.t{
+  font-size: 1.5em;
+  margin: .67em 0;
+font-weight: bold;
+}
+
+.fp-tableCell  > .h {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  /*background: inherit;*/
+  background-attachment: fixed;
+ padding: 20px 0px;
+  overflow: hidden;
+}
+.fp-tableCell  > .h::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background : linear-gradient(to bottom, rgba(255,255,255,0), black);
+ /* background: inherit;
+  background-attachment: fixed;*/
+ /* -webkit-filter: blur(15px);
+  filter: blur(15px);
+  transform: scale(2) translateY(20px);*/
+}
+.fp-tableCell > .h > .t {
+  margin: 0;
+  color: white;
+  position: absolute;
+  z-index: 1;
+  top: 80%;
+  margin-left: 0.5em;
+}
+svg {
+  padding: 20px;
+}
+.scroll-down{
+position: relative;
+color: white;
+font-family: aller;
+font-size: 1.5em;
+left: 85%;
+  top: 35%;
+}
+.scroll-up {
+  position: absolute;
+  color: black;
+  font-family: aller;
+  font-size: 1.5em;
+  left: 90%;
+  top: 0px;
+}
+.contact{
+display: block;
+}
+#heading {
+  position: absolute;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
+#heading_info {
+  margin-top: 2em;
+}
+.info {
+  position: absolute;
+  float: left;
+  left: 33%;
+  width: 33%;
+  text-align: center;
+}
+.osm_location {
+  display: inline-block;
+  position: absolute;
+  float: left;
+  left: 29%;
+  top: 20%;
+}
+.contact_info{
+display: inline-block;
+}
+@media only screen and (min-height: 700px) and (min-width: 1370px){
+.section {
+  height: 900px;
+}
+}

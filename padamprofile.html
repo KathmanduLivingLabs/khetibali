@@ -1,0 +1,124 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>
+Khetibali
+</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="bajrabarahi/js/jquery-2.1.1.min.js"></script>
+        <script src="bajrabarahi/js/d3.min.js"></script>
+		<script src="js/mainpagenav.js"></script>
+        <script src="bajrabarahi/js/d3pie.min.js"></script>
+		<script src="js/piechart.js"></script>
+		<script src="js/parallax.js"></script>
+		<script src="bajrabarahi/js/jquery.fullPage.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css" />
+		<link rel="stylesheet" href="css/main.css">
+		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/profile.css">
+		<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+		<style>
+		#padam-map{
+display: block;
+}
+#padam-map:active{
+display: block;
+}
+#padam-profile{
+display: block;
+}
+</style>
+
+</head>
+<body>
+ <div class="pure-g">
+ <div class="pure-u-1-5">
+ <div class="khetibalilogo"></div>
+ <ul class="navigation">
+    <li class="nav-item" id="bajranav-item"><a href="bajra.html">Bajrabarahi VDC</a>
+	<ul>
+	<li class="subnav-item" id="bajra-map"><a href="bajra.html">Map </a></li>
+	<li class="subnav-item" id="bajra-profile"><a href="bajraprofile.html">Profile</a></li>
+	</ul>
+	</li>
+    <li class="b-nav-item" id="padamnav-item"><a href="padam.html">Padampur VDC</a>
+	<ul>
+	<li class="subnav-item" id="padam-map"><a href="padam.html"><i class="fa fa-chevron-circle-right"></i> Map </a></li>
+	<li class="a-subnav-item" id="padam-profile"><a href="padamprofile.html"><i class="fa fa-chevron-circle-right"></i> Profile</a></li>
+	</ul>
+	</li>
+    <li class="nav-item" id="mananav-item"><a href="mana.html">Manahari VDC</a>
+	<ul>
+	<li class="subnav-item" id="mana-map"><a href="mana.html">Map </a></li>
+	<li class="subnav-item" id="mana-profile"><a href="manaprofile.html">Profile</a></li>
+	</ul>
+	</li>
+    <li class="nav-item"><a href="mappingprocess.html">The Mapping Process</a></li>
+    <li class="nav-item"><a href="about.html">About Khetibali</a></li>
+</ul>
+
+				</div>
+				<div class="pure-u-4-5">
+			<div id="fullpage">	
+	<div class="section" id="pslide1">
+<div class='scroll-down'>
+	Scroll down
+	</div>
+	<a class="button" id="down" title="">
+	</a>
+
+		</div>
+		<div class="section" id="pslide2" >
+					</div>
+	<div class="section" id="pslide3" >
+					</div>
+	<div class="section" id="pslide4" >
+	</div>
+		<div class="section" id="pslide5" >
+	</div>
+		<div class="section" id="pslide6" >
+	</div>
+
+	<div class="section">
+	<div class="chartBox">
+<div class="chart" id="pop"></div>
+<div class="chart" id="occupation"></div>
+<div class="chart" id="literacy"></div>
+<div class="chart" id="livestock"></div>
+<div class="chart" id="agri-pop"></div>
+</div>
+</div>
+<div class="section">
+    <div class="contact" style="height:100%">
+        		 		<div class='scroll-up'>
+	Scroll up
+	</div>
+		<a class="button" id="up" title=""></a>
+        <div class="osm_location" style=" width: 40%; height: 40%">
+           <img src="css/images/padampur_location.jpg"/>
+        </div>
+                <div class="contact_info">
+                    <div class="info">
+                        <div id="heading">For further information</div></br>
+                    <div id="heading_info">
+                    Contact: </br>
+                    Small farmer Cooperative, Padampur </br>
+                    9855062077
+                    </div>
+                    </div>
+        </div>
+    </div>
+                </div>
+	</div>
+</div>
+<script>
+$(document).ready(function() {
+    $('#fullpage').fullpage();
+
+});
+ 
+</script>
+</body>
+</html>

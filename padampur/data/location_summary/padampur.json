@@ -1,0 +1,23 @@
+{
+	"title": "<strong>Major Crops in Padampur<strong>",
+	"content":[
+		{
+			"left": "<img src='padampur/data/pictures/location_summary/banana.jpg'/>",
+		                        "special-classes":{
+                            "left":"banana"
+                        }
+		},
+		{
+			"left": "<img src='padampur/data/pictures/location_summary/brinjal.jpg'/>",
+		                        "special-classes":{
+                            "left":"brinjal"
+                        }
+		},
+		{
+			"left": "<img src='padampur/data/pictures/location_summary/corn.jpg'/>",
+		                        "special-classes":{
+                            "left":"maize"
+                        }
+		}
+	]
+}

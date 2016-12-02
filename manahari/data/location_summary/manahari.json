@@ -1,0 +1,26 @@
+{
+	"title": "<strong>Major Crops in Manahari</strong>",
+	"content":[
+		{
+			"left": "<img src='manahari/data/pictures/location_summary/lentils.jpg'/>",
+		
+                        "special-classes":{
+                            "left":"millet"
+                        }
+		},
+		{
+			"left": "<img src='manahari/data/pictures/location_summary/corn.jpg'/>",
+
+                        "special-classes":{
+                            "left":"maize"
+                        }
+		},
+		{
+			"left": "<img src='manahari/data/pictures/location_summary/wheat.jpg'/>",
+
+                        "special-classes":{
+                            "left":"rice"
+                        }
+		}
+	]
+}
